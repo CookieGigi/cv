@@ -6,103 +6,58 @@ cv:
   website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
-      username: yourusername
+      username: guillaume-creusot-678237179
     - network: GitHub
-      username: yourusername
+      username: CookieGigi 
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-        a LaTeX-based CV/resume framework. It allows you to create
-        a high-quality CV or resume as a PDF file from a YAML
-        file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section
-          contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*,
-          *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-          *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and
-          start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/),
-          you can find a comprehensive user guide for RenderCV.'
-    education:
-      - institution: University of Pennsylvania
-        area: Computer Science
-        degree: BS
-        start_date: 2000-09
-        end_date: 2005-05
+    formation:
+      - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
+        area: PSI (Physique et science de l'ingénieur)
+        start_date: 2015
+        end_date: 2017
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
-    experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+          - Bagage scientifique en math, physique et en science de l'ingénieur (mécanique, automatique)
+      - institution: ENSC - Ecole nationale de cognitique
+        area: Ingénieur logicielle
+        start_date: 2017
+        end_date: 2020
         highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+          - Méthodologies de conception centrées utilisateur / prise en compte du facteur humain
+          - "Projets divers : web, informatique embarqué, robotique, traitement d'image, intelligence artificielle"
+    expérience:
+      - company: Avanteam
+        position: Chef de projet / Dévelopeur .Net
+        location: Toulouse, France
+        start_date: 2020-02
+        end_date: 2024-01
+        highlights: 
+          - Conduite de projets de bout en bout (analyse du besoin, gestion de projet, implémentation, test, livraison, maintenance)
+          - "Projets internes : module d'interface de planification graphique et modules pour intégrer de l'intelligence artificielle au produit" 
+      - company: Voyage
+        position: ""
+        location: "Thaïlande, Cambodge, Indonésie, Malaisie"
+        start_date: 2024-03
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
-        highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
+          - Pause professionnelle
+          - Amélioration significative du niveau d'anglais et début d'apprentissage du Malay
+          - Auto-formation sur plusieurs nouvelles compétences (Linux, NeoVim, Rust, Self-hosting)
+          - Découvertes culturelles
+    compétences:
+      - label: "Expérience professionnelle : développeur .Net"
+        details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
+      - label: Intelligence artificielle
+        details: Apprentissage à l'école et en auto-didacte avec une utilisation dans le job précédent pour des projets R&D (Python, Transformers, onnxruntime)
+      - label: Développement logicielle en auto-didacte
+        details: "Rust (concept : borrow-checker, type system, parrallélisation, asynchrone | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
+      - label: Self-Hosting en hobby
+        details: Virtualisation (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Réseau (PFsense, Vitual LAN)
+      - label: Linux (utilisation personnel)
+        details: Alacritty, Tmux, NeoVim, Obsidian
+    loisirs:
+      - label: Sport
+        details: Plongé sous-marine, vélo, randonnée
+      - label: Culturel
+        details: Voyage, roman fantasy, cuisine
 design:
   theme: classic
   font: Source Sans 3
