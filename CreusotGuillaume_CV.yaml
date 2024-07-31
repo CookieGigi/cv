@@ -66,9 +66,9 @@ design:
   color: '#004f90'
   disable_external_link_icons: false
   disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_style: NAME - Page PAGE_NUMBER sur TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
+  last_updated_date_style: Mise à jour en TODAY
   header_font_size: 30 pt
   text_alignment: justified
   seperator_between_connections: ''
@@ -96,3 +96,38 @@ design:
       bottom: 0.3 cm
       horizontal_between_connections: 0.5 cm
   show_timespan_in: []
+locale_catalog:
+  phone_number_format: national # (1)!
+  date_style: "MONTH_ABBREVIATION YEAR" # (2)!
+  abbreviations_for_months: # translation of the month abbreviations
+    - Jan
+    - Fev
+    - Mar
+    - Avr
+    - Mai
+    - Juin
+    - Juil
+    - Aou
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months: # translation of the full month names
+    - Janvier
+    - Février
+    - Mars
+    - Avril
+    - Mai
+    - Juin
+    - Juillet
+    - Août
+    - Septembre
+    - Octobre
+    - Novembre
+    - Décembre
+  month: mois      # translation of the word "month"
+  months: mois    # translation of the word "months"
+  year: année        # translation of the word "year"
+  years: années      # translation of the word "years"
+  present: actuellement  # translation of the word "present"
+  to: à            # translation of the word "to"
