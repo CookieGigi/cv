@@ -14,7 +14,7 @@ cv:
         start_date: 2015
         end_date: 2017
         highlights:
-          - Strong scientific base in math, physics and engineering sciences (mechanics, automatics, ...)
+          - Strong scientific knowledge in math, physics and engineering sciences (mechanics, automatics, ...)
       - institution: INP ENSC - Ecole nationale de cognitique (National school of cognitique)
         area: Software engineer
         start_date: 2017
@@ -30,18 +30,19 @@ cv:
         end_date: 2024-01
         highlights: 
           - Participate in all steps of project process (customer need analysis, project management, implementation, test, delivery, maintenance)
-          - "R&D projects : module of graphical planing and modules to integrate AI into the company product" 
+          - Tech leader profil (good technical knowledges, good company product knowledges, provide technical assistances to co-worker)
+          - "R&D projects : module of graphical planing and modules to integrate AI into company product" 
       - company: Travel
         position: ""
         location: "Thailand, Cambodia, Indonesia, Malaysia"
         start_date: 2024-03
         highlights:
-          - Profesionnal break
-          - Significatly improve english level and begin malay learning
+          - Professional break
+          - Significantly improve english level and begin malay learning
           - Self-learning (Linux, NeoVim, Rust, Self-hosting)
           - Cultural discoveries
     competences:
-      - label: "Profesionnal experience : .Net Developer"
+      - label: "Professional experience : .Net Developer"
         details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
       - label: artificial intelligence
         details: Learn at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorythm)
