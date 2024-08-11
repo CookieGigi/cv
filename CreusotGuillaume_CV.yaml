@@ -2,7 +2,6 @@ cv:
   name: Guillaume Creusot
   location: Malacca, Malaysia
   email: gcreusot@pm.me
-  phone: tel:+33659987186
   website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
@@ -50,7 +49,7 @@ cv:
       - label: Développement logicielle en auto-didacte
         details: "Rust (concept : borrow-checker, type system, parrallélisation, asynchrone | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
       - label: Self-Hosting en hobby
-        details: Virtualisation (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Réseau (PFsense, Vitual LAN)
+        details: Virtualisation (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Réseau (PFsense, Virtual LAN)
       - label: Linux (utilisation personnel)
         details: Alacritty, Tmux, NeoVim, Obsidian
     loisirs:
