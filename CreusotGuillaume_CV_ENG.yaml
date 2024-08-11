@@ -1,0 +1,131 @@
+cv:
+  name: Guillaume Creusot
+  location: Malacca, Malaysia
+  email: gcreusot@pm.me
+  social_networks:
+    - network: LinkedIn
+      username: guillaume-creusot-678237179
+    - network: GitHub
+      username: CookieGigi 
+  sections:
+    formation:
+      - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
+        area: PSI (Physics and engineering sciences)
+        start_date: 2015
+        end_date: 2017
+        highlights:
+          - Strong scientific base in math, physics and engineering sciences (mechanics, automatics, ...)
+      - institution: INP ENSC - Ecole nationale de cognitique (National school of cognitique)
+        area: Software engineer
+        start_date: 2017
+        end_date: 2020
+        highlights:
+          - Methodology of UCD (user centered design) / human factor
+          - "Multiple projects in differents domains : web, IOT, robotic, image processing, AI"
+    expérience:
+      - company: Avanteam
+        position: Project Manager / .Net Developer
+        location: Toulouse, France
+        start_date: 2020-02
+        end_date: 2024-01
+        highlights: 
+          - Participate in all steps of project process (customer need analysis, project management, implementation, test, delivery, maintenance)
+          - "R&D projects : module of graphical planing and modules to integrate AI into the company product" 
+      - company: Travel
+        position: ""
+        location: "Thailand, Cambodia, Indonesia, Malaysia"
+        start_date: 2024-03
+        highlights:
+          - Profesionnal break
+          - Significatly improve english level and begin malay learning
+          - Self-learning (Linux, NeoVim, Rust, Self-hosting)
+          - Cultural discoveries
+    compétences:
+      - label: "Profesionnal experience : .Net Developer"
+        details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
+      - label: artificial intelligence
+        details: Learn at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorythm)
+      - label: Software engineering
+        details: "Rust (concepts : borrow-checker, type system, parallel programming, asynchron programing | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
+      - label: Self-Hosting
+        details: Virtualization (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Network (PFsense, Virtual LAN)
+      - label: Linux (personnal use)
+        details: Alacritty, Tmux, NeoVim, Obsidian
+    loisirs:
+      - label: Sport
+        details: scuba diving, biking, hiking
+      - label: Cultural
+        details: Travel, fantasy novel, cooking
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER sur TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Mise à jour en TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in: []
+locale_catalog:
+  phone_number_format: national # (1)!
+  date_style: "MONTH_ABBREVIATION YEAR" # (2)!
+  abbreviations_for_months: # translation of the month abbreviations
+    - Jan
+    - Fev
+    - Mar
+    - Avr
+    - Mai
+    - Juin
+    - Juil
+    - Aou
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months: # translation of the full month names
+    - Janvier
+    - Février
+    - Mars
+    - Avril
+    - Mai
+    - Juin
+    - Juillet
+    - Août
+    - Septembre
+    - Octobre
+    - Novembre
+    - Décembre
+  month: mois      # translation of the word "month"
+  months: mois    # translation of the word "months"
+  year: année        # translation of the word "year"
+  years: années      # translation of the word "years"
+  present: actuellement  # translation of the word "present"
+  to: à            # translation of the word "to"
