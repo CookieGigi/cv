@@ -8,20 +8,12 @@ cv:
     - network: GitHub
       username: CookieGigi 
   sections:
-    education:
-      - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
-        area: PSI (Physics and engineering sciences)
-        start_date: 2015
-        end_date: 2017
-        highlights:
-          - Strong scientific knowledge in math, physics and engineering sciences (mechanics, automatics, ...)
-      - institution: INP ENSC - Ecole nationale de cognitique (National school of cognitique)
-        area: Software engineer
-        start_date: 2017
-        end_date: 2020
-        highlights:
-          - Methodology of UCD (user centered design) / human factor
-          - "Multiple projects in differents domains : web, IOT, robotic, image processing, AI"
+    summary:
+      - "Software engineer with 4 years of experience designing, implementing and managing web applications projects."
+      - "My last job principally involved technologies like ASP.Net, Microsoft SQL Server, JS/JQuery and HTML/CSS, but outside of the work I'm enthousiastic learner who likes to explore others languages such as Python and Rust or others domains like self-hosting."
+      - "My last job was not only about development. I had also to deal with all aspect of a project from the customer needs analysis to maintain application in production."
+      - "This mix of project manager and developer learned me a lot about keeping in touch with project/business reality while developing application. In plenty of occasion, it permits me to reconsider some functionalities design or even change the specifications with the customer to fit better with his needs."
+      - "Currently, I'm a traveller who fell in love with Malaysia and wants to settle there. At first, for more flexibility, I'm searching for a remote job."
     experience:
       - company: Avanteam
         position: Project Manager / .Net Developer
@@ -41,6 +33,21 @@ cv:
           - Significantly improve english level and begin malay learning
           - Self-learning (Linux, NeoVim, Rust, Self-hosting)
           - Cultural discoveries
+
+    education:
+      - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
+        area: PSI (Physics and engineering sciences)
+        start_date: 2015
+        end_date: 2017
+        highlights:
+          - Strong scientific knowledge in math, physics and engineering sciences (mechanics, automatics, ...)
+      - institution: INP ENSC - Ecole nationale de cognitique (National school of cognitique)
+        area: Software engineer
+        start_date: 2017
+        end_date: 2020
+        highlights:
+          - Methodology of UCD (user centered design) / human factor
+          - "Multiple projects in differents domains : web, IOT, robotic, image processing, AI"
     competences:
       - label: "Professional experience : .Net Developer"
         details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
