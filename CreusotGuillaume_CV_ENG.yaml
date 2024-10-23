@@ -1,5 +1,5 @@
 cv:
-  name: "Guillaume Creusot (27M - French)"
+  name: "Guillaume Creusot"
   location: Malacca, Malaysia
   email: gcreusot@pm.me
   social_networks:
@@ -8,11 +8,18 @@ cv:
     - network: GitHub
       username: CookieGigi 
   sections:
+    info:
+      - label : "Age"
+        details : "27"
+      - label : "Nationality"
+        details : "France"
+      - label : "Visa status"
+        details : "Need a visa to work"
     summary:
       - "Software engineer with 4 years of experience designing, implementing and managing web applications projects."
-      - "My last job principally involved technologies like ASP.Net, Microsoft SQL Server, JS/JQuery and HTML/CSS, but outside of the work I'm enthousiastic learner who likes to explore others languages such as Python and Rust or others domains like self-hosting or Linux."
-      - "In my previous company, I was not only developer. I had also to deal with all aspect of a project from the customer needs analysis to maintain application in production."
-      - "Currently, I'm a traveller who fell in love with Malaysia and wants to settle there. At first, for more flexibility, I'm searching for a remote job."
+      - "My last job principally involved technologies like ASP.Net, Microsoft SQL Server, JS/JQuery and HTML/CSS, but outside of work, I'm an enthusiastic learner who likes to explore other languages such as Python and Rust or other domains like self-hosting or Linux."
+      - "In my previous company, I was not only developer. I also had to deal with all aspect of a project from the customer needs' analysis to the maintenance of applications in production."
+      - "Currently, I'm a traveler who fell in love with Malaysia and wants to settle there. At first, for more flexibility, I'm searching for a remote job."
     experience:
       - company: Avanteam
         position: Project Manager / .Net Developer
@@ -20,9 +27,9 @@ cv:
         start_date: 2020-02
         end_date: 2024-01
         highlights: 
-          - Participate in all steps of project process (customer need analysis, project management, implementation, test, delivery, maintenance)
-          - Good technical knowledges (ASP.Net, Microsoft SQL Server, JS/JQuery, HTML/CSS), good company product knowledges, provide technical assistances to co-worker
-          - "This mix of project manager and developer learned me a lot about keeping in touch with project/business reality while developing application. In plenty of occasion, it permits me to reconsider some functionalities design or even change the specifications with the customer to fit better with his needs or to follow the project deadlines."
+          - Participate in all steps of project's process (customer need analysis, project management, implementation, test, delivery, maintenance)
+          - Good technical knowledge (ASP.Net, Microsoft SQL Server, JS/JQuery, HTML/CSS), good company product knowledge, provide technical assistance to co-workers
+          - "This mix of project manager and developer learned me a lot about keeping in touch with project/business reality while developing application. On many occasions, it allows me to reconsider some functionalities design or even change the specifications with the customer to better fit their needs or to meet the project deadlines."
           - "R&D projects : module of graphical task scheluding and modules to integrate AI into company product" 
       - company: Travel
         position: ""
@@ -30,7 +37,7 @@ cv:
         start_date: 2024-03
         highlights:
           - Professional break
-          - Significantly improve english level and begin malay learning
+          - Significantly improve english skills and begin malay learning
           - Self-learning (Linux, NeoVim, Rust, Self-hosting)
           - Cultural discoveries
 
@@ -52,13 +59,13 @@ cv:
       - label: "Professional experience : .Net Developer"
         details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
       - label: Artificial intelligence
-        details: Learn at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorythm)
+        details: Learned at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorythm)
       - label: Software engineering
         details: "Rust (concepts : borrow-checker, type system, parallel programming, asynchron programing | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
       - label: Self-Hosting
         details: Virtualization (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Network (PFsense, Virtual LAN)
       - label: Linux (personnal use)
-        details: Alacritty, Tmux, NeoVim, Obsidian
+        details: custom workflows (Alacritty, Tmux, NeoVim, Obsidian)
     Hobbies:
       - label: Sport
         details: scuba diving, biking, hiking
