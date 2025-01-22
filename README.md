@@ -4,12 +4,12 @@ CV generation using [rendercv](https://github.com/sinaatalay/rendercv)
 
 ## Installation
 
-```console
-pip install rendercv
+```sh
+docker run -it -v ./:/rendercv $(docker build -q .)
 ```
 
 ## Generation
 
-```console
+```sh
 rendercv render CreusotGuillaume_CV.yaml
 ```

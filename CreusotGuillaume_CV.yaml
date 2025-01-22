@@ -8,6 +8,11 @@ cv:
       username: guillaume-creusot-678237179
     - network: GitHub
       username: CookieGigi 
+  summary:
+      - "Ingénieur logiciel avec 4 ans d'expérience dans la conception, la mise en œuvre et la gestion de projets d'applications web."
+      - "Mon dernier poste impliquait principalement des technologies comme ASP.Net, Microsoft SQL Server, JS/JQuery et HTML/CSS, mais en dehors du travail, j'adore apprendre et aime explorer d'autres langages comme Python et Rust, ou encore d'autres domaines tels que le self-hosting ou Linux."
+      - "Dans mon entreprise précédente, je n'étais pas seulement développeur. J'ai également dû gérer tous les aspects d'un projet, y compris ceux non techniques comme la gestion de projet et l'analyse des besoins des clients."
+      - "Actuellement voyageur, après 9 mois de voyage, je recherche un emploi stable à distance pour pouvoir m'installer en Malaisie."
   sections:
     formation:
       - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
@@ -31,7 +36,10 @@ cv:
         end_date: 2024-01
         highlights: 
           - Conduite de projets de bout en bout (analyse du besoin, gestion de projet, implémentation, test, livraison, maintenance)
-          - "Projets internes : module d'interface de planification graphique et modules pour intégrer de l'intelligence artificielle au produit" 
+          - "Connaissances techniques (ASP.Net, Microsoft SQL Server, JS/JQuery, HTML/CSS), adaptation à une base de code complexe, assistance techniques des collègues"
+          - "Le fait d'être à la fois développeur et chef de projet m'a amené à avoir une meilleur connexion avec les réalités du projet/métier pendant le développement d'application. Dans plusieurs occasions cela m'a permis de reconsidérer la conception de fonctionnalités ou encore les spécifications de celles ci afin de mieux coller avec les besoins du client et les limites du projet."
+          - "R&D projects : module of graphical task scheluding and modules to integrate AI into company product" 
+          - "projets R&D : module graphique pour planifier des tâches et modules afin d'intégrer de l'IA au produit de l'entreprise"
       - company: Voyage
         position: ""
         location: "Thaïlande, Cambodge, Indonésie, Malaisie"
@@ -45,13 +53,15 @@ cv:
       - label: "Expérience professionnelle : développeur .Net"
         details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
       - label: Intelligence artificielle
-        details: Apprentissage à l'école et en auto-didacte avec une utilisation dans le job précédent pour des projets R&D (Python, Transformers, onnxruntime)
+        details: Apprentissage à l'école et en auto-didacte avec une utilisation dans le job précédent pour des projets R&D (Python, Transformers, onnxruntime, machine learning)
       - label: Développement logicielle en auto-didacte
         details: "Rust (concept : borrow-checker, type system, parrallélisation, asynchrone | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
       - label: Self-Hosting en hobby
         details: Virtualisation (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Réseau (PFsense, Virtual LAN)
       - label: Linux (utilisation personnel)
-        details: Alacritty, Tmux, NeoVim, Obsidian
+        details: custom workflow (Alacritty, Tmux, NeoVim, Obsidian)
+      - label : Langues
+        details : Français (langue maternelle), Anglais (bilingue - TOEIC) 
     loisirs:
       - label: Sport
         details: Plongé sous-marine, vélo, randonnée
@@ -59,45 +69,90 @@ cv:
         details: Voyage, roman fantasy, cuisine
 design:
   theme: classic
-  font: Source Sans 3
-  font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER sur TOTAL_PAGES
-  disable_last_updated_date: false
-  last_updated_date_style: Mise à jour en TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  seperator_between_connections: ''
-  use_icons_for_connections: true
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-  show_timespan_in: []
-locale_catalog:
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: black
+    name: '#004f90'
+    connections: '#004f90'
+    section_titles: '#004f90'
+    links: '#004f90'
+    last_updated_date_and_page_numbering: grey
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION** \n AREA'
+      degree_column_template: '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    experience_entry:
+      main_column_first_row_template: '**COMPANY**, POSITION'
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "LOCATION\nDATE"
+    publication_entry:
+      main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
+      date_and_location_column_template: "LOCATION\nDATE"
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_without_journal_template: "AUTHORS\n\
+        URL"
+      main_column_second_row_without_url_template: "AUTHORS\n\
+        JOURNAL"
+locale:
   phone_number_format: national # (1)!
-  date_style: "MONTH_ABBREVIATION YEAR" # (2)!
+  date_template: "MONTH_ABBREVIATION YEAR" # (2)!
   abbreviations_for_months: # translation of the month abbreviations
     - Jan
     - Fev
@@ -130,3 +185,5 @@ locale_catalog:
   years: années      # translation of the word "years"
   present: actuellement  # translation of the word "present"
   to: à            # translation of the word "to"
+  page_numbering_template: NAME - Page PAGE_NUMBER sur TOTAL_PAGES
+  last_updated_date_template: Mise à jour en TODAY
