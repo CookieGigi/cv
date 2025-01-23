@@ -2,6 +2,7 @@ cv:
   name: "Guillaume Creusot"
   location: Malacca, Malaysia
   email: gcreusot@pm.me
+  phone: "+33659987186"
   social_networks:
     - network: LinkedIn
       username: guillaume-creusot-678237179
@@ -14,7 +15,7 @@ cv:
       - label : "Nationality"
         details : "France"
       - label : "Visa status"
-        details : "Need a visa to work"
+        details : "Open to relocation and visa sponsorship"
     summary:
       - "Software engineer with 4 years of experience designing, implementing and managing web applications projects."
       - "My last job principally involved technologies like ASP.Net, Microsoft SQL Server, JS/JQuery and HTML/CSS, but outside of work, I'm an enthusiastic learner who likes to explore other languages such as Python and Rust or other domains like self-hosting or Linux."
@@ -28,18 +29,25 @@ cv:
         end_date: 2024-01
         highlights: 
           - Participate in all steps of project's process (customer need analysis, project management, implementation, test, delivery, maintenance)
-          - Good technical knowledge (ASP.Net, Microsoft SQL Server, JS/JQuery, HTML/CSS), good company product knowledge, provide technical assistance to co-workers
-          - "This mix of project manager and developer learned me a lot about keeping in touch with project/business reality while developing application. On many occasions, it allows me to reconsider some functionalities design or even change the specifications with the customer to better fit their needs or to meet the project deadlines."
-          - "R&D projects : module of graphical task scheluding and modules to integrate AI into company product" 
+          - Work with up to 4 customers in parallel in a week and succeed to schedule everything in a way to deliver quality product and to not being in a rush 
+          - "Work almost only for 4 customers, because the high quality of delivered products convinced customers to order new projects (ex : I work on 7 consecutive projects and 3 year of assistance/improvement pack for one of this customer)" 
+          - Good technical knowledge (ASP.Net, Microsoft SQL Server, JS/JQuery, HTML/CSS, IIS), good company product knowledge, provide technical assistance to co-workers
+          - "This mix of project manager and developer taught me a lot about keeping in touch with project/business reality while developing application. On many occasions, it allows me to reconsider some functionalities design or even change the specifications with the customer to better fit their needs or to meet the project deadlines."
+          - "3 R&D projects :" 
+          - "1 module of graphical task scheduling used in several customers projects to meet need like audit scheduling or resources scheduling"
+          - "2 modules to integrate AI into company product : semantic search in application data using vector database and import of unstructured data (invoice, contract, ...) in application using Recital product" 
       - company: Travel
         position: ""
         location: "Thailand, Cambodia, Indonesia, Malaysia"
         start_date: 2024-03
         highlights:
-          - Professional break
-          - Significantly improve english skills and begin malay learning
-          - Self-learning (Linux, NeoVim, Rust, Self-hosting)
-          - Cultural discoveries
+          - "Professional break to explore new horizons" 
+          - "Discover a place where I want to spend my life"
+          - "Significantly improved my English skills"
+          - "Rethink entirely my way to work by adopting totally different and customizable workflow (Linux, Alacritty, Neovim, Obsidian)"
+          - "Fully explored my passion for self-hosting : self host my own service (photo storage, document signing, task management, knowledge database, ... ) on my own server (virtualization, containerization, VPN, Reverse proxy, firewall) "
+          - "Explore new way to design web applications with Rust for backend, Nextjs for frontend"
+          - "Discover different cultures from mine (Food, History, Religion, Tradition, ...)" 
 
     education:
       - institution: CPGE PSI - Lycée Louis de Cormontaigne Metz
@@ -54,17 +62,17 @@ cv:
         end_date: 2020
         highlights:
           - Methodology of UCD (user centered design) / human factor
-          - "Multiple projects in differents domains : web, IOT, robotic, image processing, AI"
+          - "Multiple projects in different domains : web, IOT, robotic, image processing, AI"
     competences:
       - label: "Professional experience : .Net Developer"
         details: ".Net (C#, IIS), JavaScript (JQuery, React), SQL (Microsoft SQL server, Oracle)" 
       - label: Artificial intelligence
-        details: Learned at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorythm)
+        details: Learned at school and by myself. I used it in some R&D projects in my previous job (Python, Transformers, onnxruntime, machine learning algorithm)
       - label: Software engineering
         details: "Rust (concepts : borrow-checker, type system, parallel programming, asynchron programing | backend : axum, tokio), Nextjs(frontend, SSR), Devops (CI/CD, docker, git, test)"
       - label: Self-Hosting
         details: Virtualization (Docker, Proxmox), VPN (Wireguard, cloudflare tunnel, OpenVPN), Reverse proxy (Nginx, Traefix), Network (PFsense, Virtual LAN)
-      - label: Linux (personnal use)
+      - label: Linux (personal use)
         details: custom workflows (Alacritty, Tmux, NeoVim, Obsidian)
     Hobbies:
       - label: Sport
