@@ -11,5 +11,5 @@ docker run -it -v ./:/rendercv $(docker build -q .)
 ## Generation
 
 ```sh
-rendercv render CreusotGuillaume_CV.yaml
+./generate.sh
 ```
